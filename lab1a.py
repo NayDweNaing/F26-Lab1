@@ -1,22 +1,24 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Nay Dwe Naing
+# Date: 9/18/2026
 # Purpose: Create a variable, check its type and print the variable.
 # Usage: python3 lab1a.py
 
-# TO DO 1: Creating and using varibales
-# create a variable called message.
-# Set the variable to equal to "Welcome to PRG101".
-# Print the variable message using print() statement.
 
-# TO DO 2: Checking the type of a varibale
-# Use the builtin type() function and print the type of this variable.
+message = "Welcome to PRG101";
+print(message)
+# I observed that the message variable is a string.
 
-# TO DO 3: Dynamic Typing:
-# Create a varibel called `x` and assign it the value 10, then print the type of this variable.
+print(type(message));
+newstring = message + "Python is fun";
+print(newstring);
+# I observed that the message variable is a string and the newstring is concatenated string.
+x = 10;
+print(type(x));
+# I observed that the x variable is an integer.
 
-# TO DO 4: Dynamic Typing: 
-# Now reassign a new value to the variable `x`, this value should be a string, e.g "hello", check the type of the variable `x` again.
-# What did you observe?
+x = "hello";
+print(type(x));
+# I observed that the x variable is now a string because of python's dynamic typing.
